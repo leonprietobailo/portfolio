@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: radial-gradient(1200px 800px at 10% -10%, rgba(34, 211, 238, .15), transparent 60%),
+        radial-gradient(1000px 700px at 110% 10%, rgba(244, 114, 182, .12), transparent 60%),
+        #0b1020;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.divider-grad {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .25), transparent);
+}
+
+.hero-gradient {
+    background: radial-gradient(800px 400px at 30% 0%, rgba(34, 211, 238, .18), transparent 60%), radial-gradient(800px 400px at 80% 0%, rgba(244, 114, 182, .16), transparent 60%);
+}
+
+.card-hover {
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 40px rgba(34, 211, 238, .15);
+    border-color: rgba(34, 211, 238, .35);
+}
+
+.dot {
+    box-shadow: 0 0 0 4px rgba(34, 211, 238, .15);
+}

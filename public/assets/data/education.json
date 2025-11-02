@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Universidad Internacional de La Rioja, UNIR.",
+        "subtitle": "Postgraduate Degree, Generative AI for Business Applications",
+        "period": "November 2025 — Present"
+    },
+        {
+        "title": "Universidad Internacional de La Rioja, UNIR.",
+        "subtitle": "Master of Science, Artificial Intelligence",
+        "period": "November 2025 — Present"
+    },
+    {
+        "title": "Universidad Europea, UE.",
+        "subtitle": "Master of Science, Aeronautical Engineering",
+        "description": "Thesis: Computer Vision for Automated Quality Control: Defect Detection in Metallurgical Processes using Deep Learning. Explored and evaluated multiple computer vision models, testing alternative solutions for the same classification problem. Conducted comparative analysis to identify the most effective architectures, with some models achieving 100% accuracy on the provided datasets.",
+        "period": "September 2023 — June 2025"
+    },
+    {
+        "title": "Universitat Politècnica de Catalunya, UPC.",
+        "subtitle": "Bachelor of Science, Aeronautical Engineering",
+        "description": "Honours: Computer Science 1 (Python), Computer Science 2 (C#), Structures and Strength of Materials, Control and Guidance and Aircraft Operations.",
+        "period": "September 2018 — June 2023"
+    }
+]

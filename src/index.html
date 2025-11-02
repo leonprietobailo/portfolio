@@ -1,13 +1,23 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>Portfolio</title>
+  <title>León Prieto – Software Engineer</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/devicon.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
-<body>
+
+<body class="text-slate-100 selection:bg-cyan-500/30">
   <app-root></app-root>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 650, easing: 'ease-out-cubic' });
+    document.querySelector('#year').textContent = new Date().getFullYear();
+  </script>
 </body>
+
 </html>
