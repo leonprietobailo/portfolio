@@ -9,6 +9,7 @@ import { TimelineDataService } from './service/main.service';
 import { TimelineItemDto } from './models/timeline-item';
 import { Contact } from "./components/contact/contact";
 import { isPlatformBrowser } from '@angular/common';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -25,7 +26,6 @@ export class App implements OnInit, AfterViewInit {
 
   constructor(private timelineDataService: TimelineDataService, @Inject(PLATFORM_ID) private platformId: Object) { }
 
-
   ngOnInit(): void {
     this.timelineDataService.getExperience().subscribe(data => {
       this.experience = data;
@@ -37,12 +37,15 @@ export class App implements OnInit, AfterViewInit {
 
   }
 
-    ngAfterViewInit(): void {
+  ngAfterViewInit(): void {
     if (isPlatformBrowser(this.platformId)) {
-      import('aos').then(AOS => {
-        AOS.init({ once: true, duration: 650, easing: 'ease-out-cubic' });
+      AOS.init({
+        once: true,
+        duration: 650,
+        easing: 'ease-out-cubic'
       });
     }
   }
+
 
 }
