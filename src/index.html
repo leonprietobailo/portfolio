@@ -6,14 +6,25 @@
   <title>León Prieto – Software Engineer</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+  <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='65' font-size='55' text-anchor='middle' fill='%23ffffff' font-family='Arial'>LP</text></svg>"> -->
+  <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%2322d3ee'/></svg>"> -->
+  <link rel="icon" href="data:image/svg+xml,
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+  <!-- Outer aura ring -->
+  <circle cx='50' cy='50' r='38' fill='rgba(34,211,238,0.15)' />
+  <!-- Inner solid circle -->
+  <circle cx='50' cy='50' r='22' fill='%2322d3ee' />
+</svg>">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/devicon.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
 </head>
 
 <body class="text-slate-100 selection:bg-cyan-500/30">
   <app-root></app-root>
-   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({ once: true, duration: 650, easing: 'ease-out-cubic' });
     document.querySelector('#year').textContent = new Date().getFullYear();

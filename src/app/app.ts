@@ -8,10 +8,11 @@ import { Featured } from "./components/featured/featured";
 import { Footer } from "./components/footer/footer";
 import { TimelineDataService } from './service/main.service';
 import { TimelineItemDto } from './models/timeline-item';
+import { Contact } from "./components/contact/contact";
 
 @Component({
   selector: 'app-root',
-  imports: [Header, About, TechStack, Timeline, Featured, Footer],
+  imports: [Header, About, TechStack, Timeline, Featured, Footer, Contact],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
