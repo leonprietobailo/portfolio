@@ -1,6 +1,9 @@
+@import 'aos/dist/aos.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 body {
     background: radial-gradient(1200px 800px at 10% -10%, rgba(34, 211, 238, .15), transparent 60%),
