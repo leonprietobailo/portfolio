@@ -4,7 +4,7 @@
         "subtitle": "Software Engineer",
         "description": "As a software developer in the Air Traffic Management (ATM) domain, I design, develop, and maintain mission-critical Java/Spring systems, contributing across the full software development lifecycle.",
         "bullets": [
-            "Designed and implemented a FreeMarker-based API with a lightweight testing app, enabling advanced template creation. This reduced active template developers from 15 to 5 and established me as the main technical contact.",
+            "Designed and implemented a FreeMarker-based API with a lightweight testing app, enabling advanced template creation and allowing other teams to handle development independently. This simplified the workflow, removed the need for additional system interfaces, and positioned me as the main technical contact.",
             "Optimized entity graph validations and Spring applications through algorithmic improvements, caching, and proxy reduction, achieving up to 60× and 30× faster execution in critical scenarios.",
             "Oversaw project Git repositories: reviewed and merged pull requests, managed integration and release branches, and delivered stable code releases across a team of 10+ developers.",
             "Finalist in the 2023 and 2024 Rising Star awards, recognizing high-performing junior engineers in the ATM division."
@@ -12,7 +12,7 @@
         "period": "February 2023 — Present"
     },
     {
-        "title": "Airbus Defence and Space GmbH",
+        "title": "Airbus Defence and Space GmbH.",
         "subtitle": "Control Engineer",
         "description": "Worked on the development and verification of the constellation acquisition procedure for the LISA (Laser Interferometer Space Antenna) mission, integrating the acquisition logic into the spacecraft control system.",
         "bullets": [
